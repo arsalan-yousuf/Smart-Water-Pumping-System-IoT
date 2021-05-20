@@ -1,0 +1,18 @@
+{
+  "name": "smart-water-pump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sudo node src/express.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lcdi2c": "^1.0.6",
+    "pigpio": "^3.0.0",
+    "promise": "^8.0.3"
+  }
+}

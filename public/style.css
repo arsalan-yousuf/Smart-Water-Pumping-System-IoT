@@ -1,0 +1,79 @@
+
+#progressbar {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 60%;
+    display: inline-block;
+  }
+  
+#progressbar>div {
+    background-color: orange;
+    width: 40%;
+    /* Adjust with JavaScript */
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+  margin-left: 40%;
+}
+
+h3 {
+  display: inline-block;
+  margin-right: 3%;
+}
+
+#status {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.switchBox {
+  display: block;
+  border: 1px solid black;
+  width: 35%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 10px;
+  padding-top: 0px;
+  border-radius: 15px;
+}
+
+.switchBox>button {
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 4px;
+  width: 25%;
+  color: white;
+}
+
+.onButton {
+ background-color: #B11B1B;
+}
+
+.offButton {
+  background-color: darkslategray;
+}
+
+.percent {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+  margin-left: 10px;
+  font-size: 150%;
+}
+
+#statusPipeline {
+  display: inline;
+}

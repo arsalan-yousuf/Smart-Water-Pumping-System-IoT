@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">SMART WATER PUMP</h1>
+    <br/>
+    <div id="status">
+        <h3>Overhead Tank Status: </h3>
+        <div id="progressbar">
+            <div id="progressUp"></div>
+        </div>
+        <p class="percent" id="percentUp">50%</p>
+        <div class="switchBox">
+            <p>Overhead Motor Switch:</p>
+            <button class="onButton" onclick="motorUpControl(true);">ON</button>
+            <button class="offButton" onclick="motorUpControl(false);">OFF</button>
+            <p>Current Status: <p id="statusUp">OFF</p></p>
+        </div>
+        <h3>Underground Tank Status:</h3>
+        <div id="progressbar">
+            <div id="progressDown"></div>
+        </div>
+        <p class="percent" id="percentDown">50%</p>
+        <div class="switchBox">
+            <p>Underground Motor Switch:</p>
+            <button class="onButton" onclick="motorDownControl(true);">ON</button>
+            <button class="offButton" onclick="motorDownControl(false);">OFF</button>
+            <p>Current Status: <p id="statusDown">OFF</p></p>
+        </div>
+        <h3>Pipeline Suppy:</h3><p id="statusPipeline">Unavailable</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
